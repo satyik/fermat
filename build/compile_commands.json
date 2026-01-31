@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/main.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/main.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/main.cpp",
+  "output": "CMakeFiles/fermat.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/Lexer.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Lexer.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Lexer.cpp",
+  "output": "CMakeFiles/fermat.dir/src/Lexer.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/Parser.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Parser.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Parser.cpp",
+  "output": "CMakeFiles/fermat.dir/src/Parser.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/CodeGen.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/CodeGen.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/CodeGen.cpp",
+  "output": "CMakeFiles/fermat.dir/src/CodeGen.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/JIT.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/JIT.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/JIT.cpp",
+  "output": "CMakeFiles/fermat.dir/src/JIT.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/BorrowCheck.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/BorrowCheck.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/BorrowCheck.cpp",
+  "output": "CMakeFiles/fermat.dir/src/BorrowCheck.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/ModuleLoader.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/ModuleLoader.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/ModuleLoader.cpp",
+  "output": "CMakeFiles/fermat.dir/src/ModuleLoader.cpp.o"
+},
+{
+  "directory": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build",
+  "command": "/usr/bin/clang++  -I/opt/homebrew/Cellar/llvm/21.1.8/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/fermat.dir/src/Runtime.cpp.o -c /Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Runtime.cpp",
+  "file": "/Users/satyikpritamyogi/Documents/PERSONAL/fermat/src/Runtime.cpp",
+  "output": "CMakeFiles/fermat.dir/src/Runtime.cpp.o"
+}
+]

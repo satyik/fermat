@@ -1,0 +1,8 @@
+extern fermat_print(x)
+extern fermat_println(x)
+
+export def print(x)
+  fermat_print(x)
+
+export def println(x)
+  fermat_println(x)

@@ -1,0 +1,6 @@
+import "lib/math.frmt"
+import "lib/algo.frmt"
+import "lib/complex.frmt"
+import "lib/io.frmt"
+  
+println(max(10, 20))

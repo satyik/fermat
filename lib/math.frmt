@@ -1,0 +1,21 @@
+extern sin(x)
+extern cos(x)
+extern tan(x)
+extern sqrt(x)
+extern log(x)
+extern exp(x)
+extern pow(x, y)
+extern abs(x)
+extern fabs(x)
+
+static PI = 3.14159265359
+static E = 2.71828182846
+
+export def max(a, b)
+  if a > b then a else b
+
+export def min(a, b)
+  if a < b then a else b
+
+export def abs_val(x)
+  if x < 0 then 0 - x else x

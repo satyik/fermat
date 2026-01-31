@@ -1,0 +1,30 @@
+export type Complex struct
+  real: float
+  imag: float
+end
+
+export def make_complex(r, i)
+  Complex{real: r, imag: i}
+
+export def add_complex(c1, c2)
+  let r = c1.real + c2.real;
+  let i = c1.imag + c2.imag;
+  Complex{
+    real: r,
+    imag: i
+  }
+
+export def mul_complex(c1, c2)
+  let r1 = c1.real;
+  let i1 = c1.imag;
+  let r2 = c2.real;
+  let i2 = c2.imag;
+  Complex{
+    real: (r1 * r2) - (i1 * i2),
+    imag: (r1 * i2) + (i1 * r2)
+  }
+
+export def complex_norm(c)
+  let r = c.real;
+  let i = c.imag;
+  sqrt((r * r) + (i * i))

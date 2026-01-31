@@ -1,0 +1,3 @@
+import "lib/math.spy"
+square(5)
+cube(3)

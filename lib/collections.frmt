@@ -1,0 +1,76 @@
+# Collections Library
+# Wraps C++ Runtime functions for Array, Map, and Set
+
+# --- ArrayList ---
+extern fermat_list_create()
+extern fermat_list_push(list val)
+extern fermat_list_get(list idx)
+extern fermat_list_set(list idx val)
+extern fermat_list_size(list)
+
+export type ArrayList struct
+  handle: float
+end
+
+export def list_new()
+  ArrayList{ handle: fermat_list_create() }
+
+export def list_add(l v)
+  fermat_list_push(l.handle, v)
+
+export def list_get(l idx)
+  fermat_list_get(l.handle, idx)
+
+export def list_set(l idx v)
+  fermat_list_set(l.handle, idx, v)
+
+export def list_size(l)
+  fermat_list_size(l.handle)
+
+# --- HashMap ---
+extern fermat_map_create()
+extern fermat_map_put(map key val)
+extern fermat_map_get(map key)
+extern fermat_map_check(map key)
+extern fermat_map_size(map)
+
+export type HashMap struct
+  handle: float
+end
+
+export def map_new()
+  HashMap{ handle: fermat_map_create() }
+
+export def map_put(m k v)
+  fermat_map_put(m.handle, k, v)
+
+export def map_get(m k)
+  fermat_map_get(m.handle, k)
+
+export def map_contains(m k)
+  fermat_map_check(m.handle, k)
+
+export def map_size(m)
+  fermat_map_size(m.handle)
+
+# --- HashSet ---
+extern fermat_set_create()
+extern fermat_set_add(set val)
+extern fermat_set_contains(set val)
+extern fermat_set_size(set)
+
+export type HashSet struct
+  handle: float
+end
+
+export def set_new()
+  HashSet{ handle: fermat_set_create() }
+
+export def set_add(s v)
+  fermat_set_add(s.handle, v)
+
+export def set_contains(s v)
+  fermat_set_contains(s.handle, v)
+
+export def set_size(s)
+  fermat_set_size(s.handle)

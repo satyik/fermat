@@ -1,0 +1,8 @@
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/intrinsics_gen.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/vt_gen.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/omp_gen.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/acc_gen.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/target_parser_gen.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/fermat.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/edit_cache.dir
+/Users/satyikpritamyogi/Documents/PERSONAL/fermat/build/CMakeFiles/rebuild_cache.dir
